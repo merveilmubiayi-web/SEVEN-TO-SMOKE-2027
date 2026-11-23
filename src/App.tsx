@@ -107,6 +107,15 @@ export default function App() {
         </article>
       </div>
       <div className="commercial-note"><Star size={19}/><p><strong>Une visibilité mesurable, pas seulement un logo.</strong><br/>Le dossier partenaire détaillera les formats de visibilité, les activations, les contenus livrables, les indicateurs de performance et les niveaux de contribution, après échange avec chaque marque.</p></div>
+      <div className="sponsor-offers">
+        <div className="offers-heading"><span>OFFRES COMMERCIALES</span><h3>CHOISISSEZ VOTRE<br/><em>NIVEAU D'IMPACT.</em></h3><p>Des formats modulables selon les objectifs de communication, les activations souhaitées et le budget du partenaire.</p></div>
+        <div className="offer-cards">
+          <article><span>01 / VISIBILITÉ</span><h4>PARTENAIRE OFFICIEL</h4><p>Présence de marque sur les supports du championnat, visibilité digitale et intégration dans les contenus sélectionnés.</p><b>PACK SUR DEVIS</b></article>
+          <article className="featured-offer"><span>02 / EXPÉRIENCE</span><h4>PARTENAIRE ACTIVATION</h4><p>Expérience de marque sur site, espace dédié, animations et association à un temps fort de l'événement.</p><b>PACK SUR DEVIS</b></article>
+          <article><span>03 / EXCLUSIVITÉ</span><h4>PARTENAIRE TITRE</h4><p>Association premium à l'événement, visibilité renforcée et dispositif de communication construit conjointement.</p><b>PACK SUR DEVIS</b></article>
+        </div>
+        <p className="offer-disclaimer">Les montants, livrables, exclusivités et indicateurs seront définis dans une proposition personnalisée. Aucun tarif ni avantage n'est présenté comme déjà approuvé.</p>
+      </div>
       <p className="fineprint">Africell et Doppel Energy Malt / BRACONGO sont des marques ciblées. Aucune collaboration ni autorisation d'utilisation commerciale de leurs logos ou visuels n'est annoncée comme acquise.</p>
     </section>
 
