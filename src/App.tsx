@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ArrowUpRight, Menu, X, Play, Mail, MapPin, Zap, Trophy, Users, CheckCircle2, Video, CalendarDays, Medal, Smartphone, Radio, Star } from 'lucide-react'
+import { ArrowUpRight, Menu, X, Play, Mail, MapPin, Zap, Trophy, Users, CheckCircle2, Video, CalendarDays, Medal, Radio, Star } from 'lucide-react'
 
 const nav = [
   { label: 'Accueil', id: 'accueil' },
