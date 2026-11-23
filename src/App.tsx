@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ArrowUpRight, Menu, X, Play, Instagram, Mail, MapPin, Zap, Trophy, Users, CalendarDays, CheckCircle2 } from 'lucide-react'
+import { ArrowUpRight, Menu, X, Play, Instagram, Mail, MapPin, Zap, Trophy, Users, CheckCircle2 } from 'lucide-react'
 
 const nav = ['Accueil', 'Le championnat', 'Les organisateurs', 'Partenaires', 'Contact']
 
