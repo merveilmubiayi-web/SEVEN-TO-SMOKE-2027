@@ -1,10 +1,21 @@
 {
+  "id": "/",
   "name": "SEVEN TO SMOKE 2027",
-  "short_name": "7TO SMOKE",
+  "short_name": "SEVEN",
   "description": "African Urban Dance Championship",
+  "lang": "fr",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#101014",
   "theme_color": "#101014",
-  "icons": []
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }
