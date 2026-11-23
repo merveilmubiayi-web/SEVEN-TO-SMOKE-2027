@@ -67,6 +67,10 @@ export default function App() {
 
     <section className="dark-section section" id="vision">
       <div className="section-kicker">02 — NOTRE VISION</div><div className="section-heading"><h2>THE ART OF<br/><em>THE SMOKE.</em></h2><p>Faire de Kinshasa un point de rencontre des cultures urbaines, révéler les talents, raconter leurs parcours et créer une expérience qui vit au-delà de la scène.</p></div>
+      <div className="vision-photo-strip" aria-label="Ambiance des battles de danse urbaine">
+        <figure className="vision-photo vision-photo-wide"><img src="https://images.pexels.com/photos/33261207/pexels-photo-33261207/free-photo-of-street-dance-battle-with-enthusiastic-crowd.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Public rassemblé autour d'une battle de danse urbaine" loading="lazy"/><figcaption>THE CROWD. THE CULTURE.</figcaption></figure>
+        <figure className="vision-photo"><img src="https://images.pexels.com/photos/14801626/pexels-photo-14801626.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Danseur en pleine performance lors d'une battle à Kigali" loading="lazy"/><figcaption>AFRICAN MOVEMENT.</figcaption></figure>
+      </div>
       <div className="experience-grid">
         <article className="experience-card"><span>01 / TALENT</span><Trophy/><h3>Le talent<br/>se révèle.</h3><p>Une sélection exigeante pour mettre en lumière les personnalités les plus fortes de la scène.</p></article>
         <article className="experience-card"><span>02 / CULTURE</span><Zap/><h3>L'énergie<br/>prend place.</h3><p>Des battles, des performances et des rencontres qui font rayonner la culture urbaine.</p></article>
@@ -86,8 +90,11 @@ export default function App() {
       <div className="section-kicker">04 — MEDIA ROOM</div>
       <div className="section-heading"><h2>FEEL THE<br/><em>MOVEMENT.</em></h2><p>Les battles, les performances, les portraits de danseurs et les meilleurs moments du championnat seront réunis ici.</p></div>
       <div className="media-grid">
-        <article className="media-feature"><div className="media-placeholder"><Video size={42}/><span>VIDÉOS OFFICIELLES</span></div><div className="media-caption"><div><span>01 / BATTLES & PERFORMANCES</span><h3>THE FLOOR WILL SPEAK.</h3></div><Play size={22}/></div></article>
-        <div className="media-stack"><article><span>02 / DANCER SPOTLIGHT</span><Users/><h3>LES TALENTS<br/>À L'HONNEUR.</h3><p>Portraits et parcours des danseurs sélectionnés.</p></article><article><span>03 / BACKSTAGE</span><Radio/><h3>BEHIND<br/>THE SCENE.</h3><p>Préparatifs, répétitions et coulisses du projet.</p></article></div>
+        <article className="media-feature"><div className="media-photo media-photo-main"><img src="https://images.pexels.com/photos/15556644/pexels-photo-15556644/free-photo-of-a-b-boy-on-a-dance-contest.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="B-boy en pleine figure devant le public pendant un concours" loading="lazy"/><span className="photo-tag">BATTLE ENERGY / 01</span></div><div className="media-caption"><div><span>01 / BATTLES & PERFORMANCES</span><h3>THE FLOOR WILL SPEAK.</h3></div><Play size={22}/></div></article>
+        <div className="media-stack">
+          <article className="media-stack-photo media-stack-dancer"><img src="https://images.pexels.com/photos/14801626/pexels-photo-14801626.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Performance de breakdance à Kigali" loading="lazy"/><div className="media-stack-shade"/><div className="media-stack-copy"><span>02 / DANCER SPOTLIGHT</span><Users/><h3>LES TALENTS<br/>À L'HONNEUR.</h3><p>Portraits et parcours des danseurs sélectionnés.</p></div></article>
+          <article className="media-stack-photo media-stack-crowd"><img src="https://images.pexels.com/photos/33261207/pexels-photo-33261207/free-photo-of-street-dance-battle-with-enthusiastic-crowd.jpeg?auto=compress&cs=tinysrgb&w=900" alt="La foule réunie autour d'une battle de street dance" loading="lazy"/><div className="media-stack-shade"/><div className="media-stack-copy"><span>03 / BACKSTAGE & COMMUNITY</span><Radio/><h3>BEHIND<br/>THE SCENE.</h3><p>Préparatifs, répétitions et coulisses du projet.</p></div></article>
+        </div>
       </div>
       <p className="media-note">Aucune vidéo officielle n'est encore publiée. Ces emplacements sont des aperçus de démonstration, à remplacer par les battles et performances autorisées.</p>
     </section>
