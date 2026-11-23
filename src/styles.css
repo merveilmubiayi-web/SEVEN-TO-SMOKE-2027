@@ -118,3 +118,31 @@ section[id]{scroll-margin-top:18px}
   .hero-copy{font-size:13px;line-height:1.55}
   .hero-actions{margin-top:18px}
 }
+
+
+/* Demo-only interactions: clearly marked, responsive and non-persistent */
+.demo-form{display:grid;gap:13px;margin-top:20px}
+.demo-form label,.contact form label{display:grid;gap:7px;font-size:10px;letter-spacing:.4px;color:#d0cbc3}
+.demo-form input,.demo-form select{width:100%;min-width:0;background:#242328;border:1px solid #ffffff2b;padding:13px;color:#fff;font:12px 'DM Sans';outline:none;border-radius:0}
+.demo-form input:focus,.demo-form select:focus{border-color:var(--gold);box-shadow:0 0 0 2px #d7a94b24}
+.demo-form select option{background:#242328;color:#fff}
+.demo-form .primary-btn{margin-top:7px;justify-content:space-between}
+.demo-confirmation{display:flex;align-items:flex-start;flex-direction:column;gap:12px;margin-top:20px;padding:18px;border:1px solid #7a9d79;background:#1c2b20;color:#e8f2e7;font-size:12px;line-height:1.7}
+.demo-confirmation svg{color:#8bc58a}
+.demo-confirmation span{color:#c2d0c0}
+.contact form label{color:#c9c5bd}
+.contact form input,.contact form textarea{width:100%;min-width:0;margin-top:0;background:#1c1b20;border:1px solid #ffffff35;padding:13px;color:#fff;font:12px 'DM Sans';outline:none;resize:vertical}
+.contact form label input,.contact form label textarea{margin-top:7px}
+.contact form .primary-btn{margin-top:8px}
+.news{background:#e9e5dc;color:#17171b}
+.news .section-kicker{color:#98732f}
+.news .section-heading p{color:#69645f}
+.news-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin-top:40px}
+.news-grid article{background:#f5f2eb;border:1px solid #d6d0c4;padding:24px;min-width:0}
+.news-grid article>span{font-size:9px;letter-spacing:1.1px;color:#98732f;font-weight:700}
+.news-art{height:145px;margin:18px 0;position:relative;display:flex;align-items:center;justify-content:center;background:#19191d;color:var(--gold);overflow:hidden}
+.news-art b{position:absolute;right:12px;bottom:-20px;font:900 100px/.9 'Barlow Condensed';color:#ffffff12}
+.news-grid h3{font:800 30px/.95 'Barlow Condensed';margin:12px 0}
+.news-grid p{font-size:11px;line-height:1.8;color:#69645f;min-height:60px}
+.news-grid small{font-size:8px;letter-spacing:1.2px;color:#9b732e}
+@media(max-width:700px){.news-grid{grid-template-columns:1fr}.demo-form{gap:11px}.news-grid p{min-height:0}}
